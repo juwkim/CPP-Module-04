@@ -30,15 +30,15 @@ int main()
 	delete i;
 	delete j;
 
-	const WrongAnimal*	meta = new WrongAnimal();
-	const WrongAnimal*	i = new WrongCat();
+	const WrongAnimal*	ju = new WrongAnimal();
+	const WrongAnimal*	won = new WrongCat();
 
-	std::cout << i->getType() << " " << '\n';
-	i->makeSound();
-	meta->makeSound();
+	std::cout << ju->getType() << " " << '\n';
+	ju->makeSound();
+	won->makeSound();
 
-	delete meta;
-	delete i;
+	delete ju;
+	delete won;
 
 	return 0;
 }
